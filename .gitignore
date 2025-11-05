@@ -1,16 +1,24 @@
-<<<<<<< HEAD
+# common
 node_modules/
-.env
-.next/
-dist/
 .DS_Store
-=======
-node_modules
-.env
-backend/.env
-frontend/.env.local
-.next
-.DS_Store
+*.log
 npm-debug.log*
 yarn-error.log*
->>>>>>> c9ffe2dce897c77356535e377dbfbd726be3c980
+
+# env & secrets
+.env
+.env.*        # .env.local / .env.production 等
+backend/.env
+frontend/.env.local
+
+# build outputs
+dist/
+build/
+.out/
+out/
+.next/
+.vercel/
+
+# editors
+.vscode/
+.idea/
