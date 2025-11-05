@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 node_modules/
 .env
 .next/
 dist/
 .DS_Store
+=======
+node_modules
+.env
+backend/.env
+frontend/.env.local
+.next
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+>>>>>>> c9ffe2dce897c77356535e377dbfbd726be3c980
