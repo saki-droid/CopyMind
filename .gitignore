@@ -1,0 +1,8 @@
+node_modules
+.env
+backend/.env
+frontend/.env.local
+.next
+.DS_Store
+npm-debug.log*
+yarn-error.log*
